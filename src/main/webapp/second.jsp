@@ -195,7 +195,8 @@
 					<td><input type="text" name="yop"/></td>
 				</tr>
 			</table>
-			<input type="submit" value="register"/>
+<!-- 			<input type="submit" value="register"/> -->
+				<button>submit</button>
 		</form>
 			
 		</div>
