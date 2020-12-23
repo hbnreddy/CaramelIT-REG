@@ -168,38 +168,35 @@
 <!-- reg form -->
 <h1 >Employment Registration Form</h1>
 		<div class="ex">
-			<form >
-				<table>
-					<tr>
-						<td>Student Full Name</td>
-						<td><input type="text" name="fullname"/></td>
-					</tr>
-					<tr>
-						<td>Student Address</td>
-						<td><input type="text" name="address"/></td>
-					</tr>
-					<tr>
-						<td>Student Age</td>
-						<td><input type="text" name="age"/></td>
-					</tr>
-					<tr>
-						<td>Qualification</td>
-						<td><input type="text" name="qual"/></td>
-					</tr>
-					<tr>
-						<td>Percentage</td>
-						<td><input type="text" name="percent"/></td>
-					</tr>
-					<tr>
-						<td>Year Passed</td>
-						<td><input type="text" name="yop"/></td>
-					</tr>
-					<td><button>submit</button></td>
-				</table>
-					
-					<!-- <button >submit</button> -->
-					
-			</form>
+			<form action="registrationController" method="post" background-color="green"  >
+			<table style="with: 50%" text-align="center">
+				<tr>
+					<td>Employe Full Name</td>
+					<td><input type="text" name="fullname"/></td>
+				</tr>
+				<tr>
+					<td>Employe Address</td>
+					<td><input type="text" name="address"/></td>
+				</tr>
+				<tr>
+					<td>Employe Age</td>
+					<td><input type="text" name="age"/></td>
+				</tr>
+				<tr>
+					<td>Qualification</td>
+					<td><input type="text" name="qual"/></td>
+				</tr>
+				<tr>
+					<td>Technology</td>
+					<td><input type="text" name="percent"/></td>
+				</tr>
+				<tr>
+					<td>Year Passed</td>
+					<td><input type="text" name="yop"/></td>
+				</tr>
+			</table>
+			<input type="submit" value="register"/>
+		</form>
 			
 		</div>
 
