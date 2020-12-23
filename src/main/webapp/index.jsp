@@ -8,7 +8,7 @@ Frameset Web
 <frame  src=harindra.jsp >
 <frameset cols="1000%"   no-resize frameborder="1">
 
-<frame src= middle.jsp>
+<frame src= second.jsp>
 </frameset>
 <frame  src= footer.jsp>
 </frameset>
