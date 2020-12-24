@@ -199,8 +199,8 @@ td{
 						<td>Year Passed</td>
 						<td><input type="text" name="yop"/></td>
 					</tr>
-					<td>
-						<button style="margin-left: 115%;">submit</button></td>
+					<td>   <input type="submit" value="register"/>
+						<!--<button style="margin-left: 115%;">submit</button></td>-->
 				</table>
 					
 					<!-- <button >submit</button> -->
