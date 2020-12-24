@@ -170,7 +170,7 @@ td{
 
 </div>
 <!-- reg form -->
-/*<div style="margin-top: 150px;">  */
+<!-- <div style="margin-top: 150px;">  -->
 			       	 <br><br><br>
 <h1 >Employment Registration Form</h1>
 		<div class="ex">
