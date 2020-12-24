@@ -177,11 +177,11 @@ td{
 			<form action="registrationController" method="post">
 				<table>
 					<tr>
-						<td> Name</td>
+						<td> Employee Name</td>
 						<td><input type="text" name="fullname"/></td>
 					</tr>
 					<tr>
-						<td>Address</td>
+						<td> Employee Address</td>
 						<td><input type="text" name="address"/></td>
 					</tr>
 					<tr>
