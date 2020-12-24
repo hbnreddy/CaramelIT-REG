@@ -137,7 +137,7 @@ td{
 	<div class="menu">
 
 	<div class="leftmenu">
-		<img src="cr_img.png" height="100" width="170>
+		<img src="cr_img.png" height="100" width="170">
 		
 		 </div>
 
