@@ -173,39 +173,35 @@ td{
 <div style="margin-top: 150px;">
 <h1 >Employment Registration Form</h1>
 		<div class="ex">
-			<form >
-				<table>
-					<tr>
-						<td>Student Full Name</td>
-						<td><input type="text" name="fullname"/></td>
-					</tr>
-					<tr>
-						<td>Student Address</td>
-						<td><input type="text" name="address"/></td>
-					</tr>
-					<tr>
-						<td>Student Age</td>
-						<td><input type="text" name="age"/></td>
-					</tr>
-					<tr>
-						<td>Qualification</td>
-						<td><input type="text" name="qual"/></td>
-					</tr>
-					<tr>
-						<td>Percentage</td>
-						<td><input type="text" name="percent"/></td>
-					</tr>
-					<tr>
-						<td>Year Passed</td>
-						<td><input type="text" name="yop"/></td>
-					</tr>
-					<td>   <input type="submit" value="register"/>
-						<!--<button style="margin-left: 115%;">submit</button></td>-->
-				</table>
-					
-					<!-- <button >submit</button> -->
-					
-			</form>
+			<form action="registrationController" method="post">
+			<table style="with: 50%">
+				<tr>
+					<td>Student Full Name</td>
+					<td><input type="text" name="fullname"/></td>
+				</tr>
+				<tr>
+					<td>Student Address</td>
+					<td><input type="text" name="address"/></td>
+				</tr>
+				<tr>
+					<td>Student Age</td>
+					<td><input type="text" name="age"/></td>
+				</tr>
+				<tr>
+					<td>Qualification</td>
+					<td><input type="text" name="qual"/></td>
+				</tr>
+				<tr>
+					<td>Percentage</td>
+					<td><input type="text" name="percent"/></td>
+				</tr>
+				<tr>
+					<td>Year Passed</td>
+					<td><input type="text" name="yop"/></td>
+				</tr>
+			</table>
+			<input type="submit" value="register"/>
+		</form>
 			
 		</div>
 	</div>
