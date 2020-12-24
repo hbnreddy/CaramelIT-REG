@@ -16,11 +16,11 @@
 		float: left;
 	}
 	table{
-		font-size: 25px;
+		font-size: 24px;
 		color: white;
 		float: right;
-		padding-bottom: 500px;
-		margin-bottom: 10px;
+	/*	padding-bottom: 500px; 
+		margin-bottom: 10px;*/
 		margin-top: 25px;
 		margin-right:120px;
 
@@ -39,8 +39,8 @@
 	}
 	.bgimage{
 		background-image: url(imgp.jpg);
-		width: 100%;
-		height:650px;
+		/*width: 100%;*/
+		height:645px;
 	}
 	.menu{
 		width: 100%;
@@ -86,7 +86,7 @@
 	.text{
 		width: 100%;
 		height: 70vh;
-		/*font-weight: 300px;*/
+		font-weight: 300px;
 		text-transform: uppercase;
 		/*text-align: center;*/
 		color: black;
@@ -137,7 +137,7 @@ td{
 	<div class="menu">
 
 	<div class="leftmenu">
-		<img src="cr_img.png" height="100" width="200">
+		<img src="cr_img.png" height="100" width="170>
 		
 		 </div>
 
