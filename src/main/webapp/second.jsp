@@ -177,15 +177,15 @@ td{
 			<form action="registrationController" method="post">
 				<table>
 					<tr>
-						<td>Student Full Name</td>
+						<td> Name</td>
 						<td><input type="text" name="fullname"/></td>
 					</tr>
 					<tr>
-						<td>Student Address</td>
+						<td>Address</td>
 						<td><input type="text" name="address"/></td>
 					</tr>
 					<tr>
-						<td>Student Age</td>
+						<td>Age</td>
 						<td><input type="text" name="age"/></td>
 					</tr>
 					<tr>
