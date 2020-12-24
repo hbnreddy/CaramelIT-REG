@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -15,7 +16,7 @@
 		float: left;
 	}
 	table{
-		font-size: 30px;
+		font-size: 25px;
 		color: white;
 		float: right;
 		padding-bottom: 500px;
@@ -85,10 +86,10 @@
 	.text{
 		width: 100%;
 		height: 70vh;
-		font-weight: 300px;
+		/*font-weight: 300px;*/
 		text-transform: uppercase;
 		/*text-align: center;*/
-		color: white;
+		color: black;
 	}
 
 	
@@ -124,7 +125,9 @@
 		width: 120px;
 		border: 2px solid black;
 	}
-
+td{
+	color: black;
+}
 	
 </style>
 <body>
@@ -134,6 +137,7 @@
 	<div class="menu">
 
 	<div class="leftmenu">
+		<img src="cr_img.png" height="100" width="200">
 		
 		 </div>
 
@@ -166,40 +170,45 @@
 
 </div>
 <!-- reg form -->
+<div style="margin-top: 150px;">
 <h1 >Employment Registration Form</h1>
 		<div class="ex">
-			<form action="registrationController" method="post" background-color="green"  >
-			<table style="with: 50%" text-align="center">
-				<tr>
-					<td>Employe Full Name</td>
-					<td><input type="text" name="fullname"/></td>
-				</tr>
-				<tr>
-					<td>Employe Address</td>
-					<td><input type="text" name="address"/></td>
-				</tr>
-				<tr>
-					<td>Employe Age</td>
-					<td><input type="text" name="age"/></td>
-				</tr>
-				<tr>
-					<td>Qualification</td>
-					<td><input type="text" name="qual"/></td>
-				</tr>
-				<tr>
-					<td>Technology</td>
-					<td><input type="text" name="percent"/></td>
-				</tr>
-				<tr>
-					<td>Year Passed</td>
-					<td><input type="text" name="yop"/></td>
-				</tr>
-			</table>
-<!-- 			<input type="submit" value="register"/> -->
-				<button>submit</button>
-		</form>
+			<form >
+				<table>
+					<tr>
+						<td>Student Full Name</td>
+						<td><input type="text" name="fullname"/></td>
+					</tr>
+					<tr>
+						<td>Student Address</td>
+						<td><input type="text" name="address"/></td>
+					</tr>
+					<tr>
+						<td>Student Age</td>
+						<td><input type="text" name="age"/></td>
+					</tr>
+					<tr>
+						<td>Qualification</td>
+						<td><input type="text" name="qual"/></td>
+					</tr>
+					<tr>
+						<td>Percentage</td>
+						<td><input type="text" name="percent"/></td>
+					</tr>
+					<tr>
+						<td>Year Passed</td>
+						<td><input type="text" name="yop"/></td>
+					</tr>
+					<td>
+						<button style="margin-left: 115%;">submit</button></td>
+				</table>
+					
+					<!-- <button >submit</button> -->
+					
+			</form>
 			
 		</div>
+	</div>
 
 		<br>
 		
